@@ -1,0 +1,26 @@
+div, p, h5{margin:0; padding:0;}
+.wraper{
+            width:300px;
+            height: 500px;
+            .title{
+                span{
+                    width:50%;
+                    display:inline-block;
+                }
+            }
+            .search{
+                padding-bottom:5px;
+            }
+            .content{
+                width:80%;
+            }
+            .con{
+                .listItem span{width:50%; display:inline-block; font-size:14px;}
+            }
+            .block{
+                padding-bottom:5px;
+            }
+            .red{color:#f00;}
+            .show{ display: block;}
+            .hide{ display: none;}
+        }
